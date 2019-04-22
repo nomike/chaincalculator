@@ -37,7 +37,7 @@ public class Main {
             System.out.println(calculator.compute(12, 3, Operator.ADD));
             System.out.println(calculator.compute(1230, 212, Operator.DIVIDE));
             System.out.println(calculator.compute(1230, 212, Operator.SUBSTRACT));
-            System.out.println(calculator.compute(1230, 212, Operator.MODULO)); // This line will throw an exeption as no Operation for Modulo is implemented
+            System.out.println(calculator.compute(1230, 212, Operator.MODULO)); // This line will throw an exception as no Operation for Modulo is implemented
         } catch (IllegalOperatorException e) {
             /*
             Normal output of this program is printed to STDOUT. This error message is printed to STDERR.
