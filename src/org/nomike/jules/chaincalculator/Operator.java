@@ -18,7 +18,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 package org.nomike.jules.chaincalculator;
 
 /**
- * Defines an operator. Ther are static instances for ADD, SUBSTRACT, MULTIPLY, and DIVIDE.
+ * Defines an operator. There are static instances for ADD, SUBSTRACT, MULTIPLY, and DIVIDE.
  */
 public class Operator {    
     public static Operator ADD = new Operator();
